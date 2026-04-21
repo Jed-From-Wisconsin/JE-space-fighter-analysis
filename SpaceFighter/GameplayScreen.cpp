@@ -29,7 +29,7 @@ void GameplayScreen::LoadLevel(const int levelIndex)
 	switch (levelIndex)
 	{
 	case 0: m_pLevel = new Level02(); break;
-	}
+	} 
 
 	m_pLevel->SetGameplayScreen(this);
 	m_pLevel->LoadContent(*m_pResourceManager);
@@ -53,3 +53,4 @@ void GameplayScreen::Draw(SpriteBatch& spriteBatch)
 
 	spriteBatch.End();
 }
+//ok
